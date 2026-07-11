@@ -52,18 +52,5 @@ npm run security:check
 3. Make a small change and open a pull request to demonstrate that the same checks run before merging.
 4. In the repository settings, add `Continuous Integration / Build, test, and validate` and `Continuous Integration / Dependency security audit` as required status checks if branch protection is available.
 
-## Demo video checklist
 
-For the submission video, show:
 
-1. The `.github/workflows/ci.yml` file and explain the push/pull-request triggers.
-2. A commit or pull request that starts the workflow.
-3. The successful formatting, lint, test, build, and security-audit steps in the Actions tab.
-4. The README and the local commands above.
-
-## Optional enhancements
-
-- Enable GitHub Dependabot for automatic dependency update pull requests.
-- Add CodeQL analysis for source-code security scanning.
-- Publish test coverage to Codecov.
-- Deploy only after all validation checks pass.
