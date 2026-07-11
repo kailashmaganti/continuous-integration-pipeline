@@ -1,0 +1,28 @@
+{
+  "name": "continuous-integration-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A small TypeScript project that demonstrates a production-quality GitHub Actions CI pipeline.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "security:check": "npm audit --audit-level=high"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@types/node": "^24.0.0",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.37.0",
+    "vitest": "^3.2.4"
+  }
+}
