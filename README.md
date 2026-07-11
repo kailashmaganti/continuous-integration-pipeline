@@ -51,6 +51,3 @@ npm run security:check
 2. Open the repository's **Actions** tab to see the first run.
 3. Make a small change and open a pull request to demonstrate that the same checks run before merging.
 4. In the repository settings, add `Continuous Integration / Build, test, and validate` and `Continuous Integration / Dependency security audit` as required status checks if branch protection is available.
-
-
-
